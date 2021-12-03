@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BFF6A1C02759F33D003854F8 /* YotiProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */; };
-		BFF6A1C22759F33D003854F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1C12759F33D003854F8 /* ContentView.swift */; };
 		BFF6A1C42759F33F003854F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A1C32759F33F003854F8 /* Assets.xcassets */; };
 		BFF6A1C72759F33F003854F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A1C62759F33F003854F8 /* Preview Assets.xcassets */; };
 		BFF6A1D32759FB3B003854F8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */; };
@@ -16,18 +15,21 @@
 		BFF6A1D82759FEEF003854F8 /* YotiButtonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BFF6A1D72759FEEF003854F8 /* YotiButtonSDK */; };
 		BFF6A1DA275A01DA003854F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1D9275A01DA003854F8 /* ViewController.swift */; };
 		BFF6A1DC275A03DC003854F8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1DB275A03DC003854F8 /* Profile.swift */; };
+		BFF6A1DF275A0FC9003854F8 /* Yoti.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A1DD275A0FC9003854F8 /* Yoti.storyboard */; };
+		BFF6A1E6275A1211003854F8 /* YotiViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1E5275A1211003854F8 /* YotiViewComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFF6A1BC2759F33D003854F8 /* YotiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YotiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YotiProApp.swift; sourceTree = "<group>"; };
-		BFF6A1C12759F33D003854F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFF6A1C32759F33F003854F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF6A1C62759F33F003854F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BFF6A1D42759FE93003854F8 /* AppDelegete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegete.swift; sourceTree = "<group>"; };
 		BFF6A1D9275A01DA003854F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFF6A1DB275A03DC003854F8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BFF6A1DE275A0FC9003854F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../ios-sdk-button/Sample/sdk-ios-swift/Base.lproj/Yoti.storyboard"; sourceTree = "<group>"; };
+		BFF6A1E5275A1211003854F8 /* YotiViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YotiViewComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */,
-				BFF6A1C12759F33D003854F8 /* ContentView.swift */,
 				BFF6A1C32759F33F003854F8 /* Assets.xcassets */,
 				BFF6A1C52759F33F003854F8 /* Preview Content */,
 				BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */,
 				BFF6A1D42759FE93003854F8 /* AppDelegete.swift */,
 				BFF6A1D9275A01DA003854F8 /* ViewController.swift */,
 				BFF6A1DB275A03DC003854F8 /* Profile.swift */,
+				BFF6A1DD275A0FC9003854F8 /* Yoti.storyboard */,
+				BFF6A1E5275A1211003854F8 /* YotiViewComponent.swift */,
 			);
 			path = YotiPro;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF6A1DF275A0FC9003854F8 /* Yoti.storyboard in Resources */,
 				BFF6A1C72759F33F003854F8 /* Preview Assets.xcassets in Resources */,
 				BFF6A1C42759F33F003854F8 /* Assets.xcassets in Resources */,
 			);
@@ -161,12 +165,23 @@
 				BFF6A1DC275A03DC003854F8 /* Profile.swift in Sources */,
 				BFF6A1D52759FE93003854F8 /* AppDelegete.swift in Sources */,
 				BFF6A1D32759FB3B003854F8 /* ProfileViewController.swift in Sources */,
-				BFF6A1C22759F33D003854F8 /* ContentView.swift in Sources */,
+				BFF6A1E6275A1211003854F8 /* YotiViewComponent.swift in Sources */,
 				BFF6A1C02759F33D003854F8 /* YotiProApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFF6A1DD275A0FC9003854F8 /* Yoti.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF6A1DE275A0FC9003854F8 /* Base */,
+			);
+			name = Yoti.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFF6A1C82759F33F003854F8 /* Debug */ = {

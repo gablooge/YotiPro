@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-//@main
-//struct YotiProApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
+@main
+struct YotiProApp: App {
+    var body: some Scene {
+        WindowGroup {
+            YotiViewComponent()
+        }
+    }
+}
