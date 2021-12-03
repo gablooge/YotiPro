@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "YotiButtonSDK",
+        "repositoryURL": "https://github.com/getyoti/ios-sdk-button.git",
+        "state": {
+          "branch": "master",
+          "revision": "c6213ea526a63607db9f7f4f1292a9c2cda6aadb",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

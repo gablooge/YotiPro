@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF6A1C02759F33D003854F8 /* YotiProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */; };
+		BFF6A1C22759F33D003854F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1C12759F33D003854F8 /* ContentView.swift */; };
+		BFF6A1C42759F33F003854F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A1C32759F33F003854F8 /* Assets.xcassets */; };
+		BFF6A1C72759F33F003854F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6A1C62759F33F003854F8 /* Preview Assets.xcassets */; };
+		BFF6A1D32759FB3B003854F8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */; };
+		BFF6A1D52759FE93003854F8 /* AppDelegete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1D42759FE93003854F8 /* AppDelegete.swift */; };
+		BFF6A1D82759FEEF003854F8 /* YotiButtonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BFF6A1D72759FEEF003854F8 /* YotiButtonSDK */; };
+		BFF6A1DA275A01DA003854F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1D9275A01DA003854F8 /* ViewController.swift */; };
+		BFF6A1DC275A03DC003854F8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6A1DB275A03DC003854F8 /* Profile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFF6A1BC2759F33D003854F8 /* YotiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YotiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YotiProApp.swift; sourceTree = "<group>"; };
+		BFF6A1C12759F33D003854F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF6A1C32759F33F003854F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF6A1C62759F33F003854F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BFF6A1D42759FE93003854F8 /* AppDelegete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegete.swift; sourceTree = "<group>"; };
+		BFF6A1D9275A01DA003854F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFF6A1DB275A03DC003854F8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF6A1B92759F33D003854F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A1D82759FEEF003854F8 /* YotiButtonSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF6A1B32759F33D003854F8 = {
+			isa = PBXGroup;
+			children = (
+				BFF6A1BE2759F33D003854F8 /* YotiPro */,
+				BFF6A1BD2759F33D003854F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF6A1BD2759F33D003854F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A1BC2759F33D003854F8 /* YotiPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF6A1BE2759F33D003854F8 /* YotiPro */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A1BF2759F33D003854F8 /* YotiProApp.swift */,
+				BFF6A1C12759F33D003854F8 /* ContentView.swift */,
+				BFF6A1C32759F33F003854F8 /* Assets.xcassets */,
+				BFF6A1C52759F33F003854F8 /* Preview Content */,
+				BFF6A1D22759FB3B003854F8 /* ProfileViewController.swift */,
+				BFF6A1D42759FE93003854F8 /* AppDelegete.swift */,
+				BFF6A1D9275A01DA003854F8 /* ViewController.swift */,
+				BFF6A1DB275A03DC003854F8 /* Profile.swift */,
+			);
+			path = YotiPro;
+			sourceTree = "<group>";
+		};
+		BFF6A1C52759F33F003854F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6A1C62759F33F003854F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF6A1BB2759F33D003854F8 /* YotiPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6A1CA2759F33F003854F8 /* Build configuration list for PBXNativeTarget "YotiPro" */;
+			buildPhases = (
+				BFF6A1B82759F33D003854F8 /* Sources */,
+				BFF6A1B92759F33D003854F8 /* Frameworks */,
+				BFF6A1BA2759F33D003854F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YotiPro;
+			packageProductDependencies = (
+				BFF6A1D72759FEEF003854F8 /* YotiButtonSDK */,
+			);
+			productName = YotiPro;
+			productReference = BFF6A1BC2759F33D003854F8 /* YotiPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF6A1B42759F33D003854F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BFF6A1BB2759F33D003854F8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BFF6A1B72759F33D003854F8 /* Build configuration list for PBXProject "YotiPro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF6A1B32759F33D003854F8;
+			packageReferences = (
+				BFF6A1D62759FEEF003854F8 /* XCRemoteSwiftPackageReference "ios-sdk-button" */,
+			);
+			productRefGroup = BFF6A1BD2759F33D003854F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF6A1BB2759F33D003854F8 /* YotiPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF6A1BA2759F33D003854F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A1C72759F33F003854F8 /* Preview Assets.xcassets in Resources */,
+				BFF6A1C42759F33F003854F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF6A1B82759F33D003854F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6A1DA275A01DA003854F8 /* ViewController.swift in Sources */,
+				BFF6A1DC275A03DC003854F8 /* Profile.swift in Sources */,
+				BFF6A1D52759FE93003854F8 /* AppDelegete.swift in Sources */,
+				BFF6A1D32759FB3B003854F8 /* ProfileViewController.swift in Sources */,
+				BFF6A1C22759F33D003854F8 /* ContentView.swift in Sources */,
+				BFF6A1C02759F33D003854F8 /* YotiProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFF6A1C82759F33F003854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF6A1C92759F33F003854F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF6A1CB2759F33F003854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YotiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = GH8767RCJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tekadigi.crypto.YotiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF6A1CC2759F33F003854F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YotiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = GH8767RCJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tekadigi.crypto.YotiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF6A1B72759F33D003854F8 /* Build configuration list for PBXProject "YotiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A1C82759F33F003854F8 /* Debug */,
+				BFF6A1C92759F33F003854F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6A1CA2759F33F003854F8 /* Build configuration list for PBXNativeTarget "YotiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6A1CB2759F33F003854F8 /* Debug */,
+				BFF6A1CC2759F33F003854F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFF6A1D62759FEEF003854F8 /* XCRemoteSwiftPackageReference "ios-sdk-button" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getyoti/ios-sdk-button.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFF6A1D72759FEEF003854F8 /* YotiButtonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFF6A1D62759FEEF003854F8 /* XCRemoteSwiftPackageReference "ios-sdk-button" */;
+			productName = YotiButtonSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFF6A1B42759F33D003854F8 /* Project object */;
+}
